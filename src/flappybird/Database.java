@@ -14,7 +14,7 @@ public class Database {
     private static final String USER = "root";
 
     // CHANGE THIS TO YOUR MYSQL PASSWORD
-    private static final String PASSWORD = "Ishu@1428";
+    private static final String PASSWORD = "MySQL_Password";
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
